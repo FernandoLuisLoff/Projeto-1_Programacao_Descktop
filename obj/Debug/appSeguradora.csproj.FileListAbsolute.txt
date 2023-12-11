@@ -1,0 +1,219 @@
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\appSeguradora.exe.config
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\appSeguradora.exe
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\appSeguradora.pdb
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.csproj.SuggestedBindingRedirects.cache
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.frmPrincipal.resources
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.exe
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.pdb
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.frmCadastroPadrão.resources
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.frmMarca.resources
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\seguradora.mdf
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\seguradora_log.ldf
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.FrmModelo.resources
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.frmPesquisaPadrão.resources
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\EntityFramework.dll
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\EntityFramework.xml
+C:\Users\lorde\source\repos\appSeguradora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.FrmPesquisaMarcas.resources
+C:\Users\lorde\source\repos\appSeguradora\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\seguradora.mdf
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\seguradora_log.ldf
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\appSeguradora.exe.config
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\EntityFramework.dll
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\EntityFramework.xml
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.FrmCadastroPadrão.resources
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.FrmMarca.resources
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.FrmModelo.resources
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.FrmPesquisaMarcas.resources
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.FrmPesquisaPadrão.resources
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.FrmPrincipal.resources
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\appSeguradora\appSeguradora\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\seguradora.mdf
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\seguradora_log.ldf
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\appSeguradora.exe.config
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\EntityFramework.dll
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\EntityFramework.xml
+C:\Users\guilh\Desktop\appSeguradora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.FrmPrincipal.resources
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.FrmAdmin.resources
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.FrmMarcas.resources
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.FrmCadastroMarcas.resources
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.FrmCadastroModelo.resources
+C:\Users\guilh\Desktop\appSeguradora\obj\Debug\appSeguradora.FrmModelo.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.csproj.SuggestedBindingRedirects.cache
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.exe
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.pdb
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.FrmAdmin.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.FrmCadastroMarcas.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.FrmCadastroModelo.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.FrmMarcas.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.FrmModelo.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.FrmPrincipal.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\seguradora.mdf
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\seguradora_log.ldf
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\appSeguradora.exe.config
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\appSeguradora.exe
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\appSeguradora.pdb
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\EntityFramework.dll
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\EntityFramework.xml
+C:\Users\lorde\Downloads\appSeguradora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lorde\Downloads\appSeguradora\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\seguradora.mdf
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\seguradora_log.ldf
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\appSeguradora.exe.config
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\EntityFramework.dll
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\EntityFramework.xml
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmAdmin.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmCadastroMarcas.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmCadastroModelo.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmMarcas.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmPrincipal.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmModelos.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmFipe.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmDadosVeiculo.resources
+C:\Users\guilh\Desktop\appSeguradora - versão 1.03\appSeguradora\obj\Debug\appSeguradora.FrmCadastroFipe.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\seguradora.mdf
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\seguradora_log.ldf
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\appSeguradora.exe.config
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\appSeguradora.exe
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\appSeguradora.pdb
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\EntityFramework.dll
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\EntityFramework.SqlServer.dll
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\EntityFramework.xml
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\bin\Debug\EntityFramework.SqlServer.xml
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmAdmin.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmCadastroFipe.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmCadastroMarcas.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmCadastroModelo.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmFipe.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmMarcas.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmModelos.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmPrincipal.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.Properties.Resources.resources
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.csproj.CopyComplete
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.exe
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.pdb
+D:\Pastas - Area de trabalho\Utfpr\5 - Matérias\4º - Quarto Período\5 - Programação Para Desktop\appSeguradora\obj\Debug\appSeguradora.FrmApolice.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\seguradora.mdf
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\seguradora_log.ldf
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\appSeguradora.exe.config
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\appSeguradora.exe
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\appSeguradora.pdb
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\EntityFramework.dll
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\EntityFramework.xml
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmAdmin.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroFipe.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroMarcas.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroModelo.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmApolice.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmFipe.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmMarcas.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmModelos.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmPrincipal.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\guilh\Desktop\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroUsuario.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.SuggestedBindingRedirects.cache
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.exe
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.pdb
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\seguradora.mdf
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\seguradora_log.ldf
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\appSeguradora.exe.config
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\appSeguradora.exe
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\appSeguradora.pdb
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.dll
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.xml
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmAdmin.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroFipe.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroMarcas.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroModelo.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmApolice.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroUsuario.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmFipe.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmMarcas.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmModelos.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmPrincipal.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\lorde\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\seguradora.mdf
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\seguradora_log.ldf
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\appSeguradora.exe.config
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\appSeguradora.exe
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\appSeguradora.pdb
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.dll
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.xml
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.AssemblyReference.cache
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmAdmin.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroFipe.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroMarcas.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroModelo.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmApolice.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmCadastroUsuario.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmFipe.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmMarcas.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmModelos.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.FrmPrincipal.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.Properties.Resources.resources
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.GenerateResource.cache
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.CoreCompileInputs.cache
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.csproj.CopyComplete
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.exe
+C:\Users\ferlo\Downloads\Projeto-Seguradora-master\obj\Debug\appSeguradora.pdb

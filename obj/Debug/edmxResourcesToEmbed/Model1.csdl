@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="seguradoraModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Apolices">
+    <Key>
+      <PropertyRef Name="ApoliceId" />
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ApoliceId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" Nullable="false" />
+    <Property Name="Marca" Type="Int32" Nullable="false" />
+    <Property Name="Modelo" Type="Int32" Nullable="false" />
+    <Property Name="AnoFabricacao" Type="Int32" Nullable="false" />
+    <Property Name="AnoModelo" Type="Int32" Nullable="false" />
+    <Property Name="Combustivel" Type="Int32" Nullable="false" />
+    <Property Name="Chassi" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Placa" Type="String" MaxLength="7" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Roubo" Type="Boolean" Nullable="false" />
+    <Property Name="Vidros" Type="Boolean" Nullable="false" />
+    <Property Name="Acidentes" Type="Boolean" Nullable="false" />
+    <Property Name="DanosTerceiros" Type="Boolean" Nullable="false" />
+    <Property Name="FranquiaRed" Type="Boolean" Nullable="false" />
+    <Property Name="ValorDoBem" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ValorFranquia" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ValorApolice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ValorPremio" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Clientes" Relationship="Self.FK_ClienteId_Apolices" FromRole="Apolices" ToRole="Clientes" />
+    <NavigationProperty Name="Marcas" Relationship="Self.FK_Marca_Apolices" FromRole="Apolices" ToRole="Marcas" />
+    <NavigationProperty Name="Modelos" Relationship="Self.FK_Modelos_Apolices" FromRole="Apolices" ToRole="Modelos" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="ClienteID" />
+    </Key>
+    <Property Name="ClienteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Endereco" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CEP" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cidade" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UF" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Celular" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="CPF" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="RG" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OrgaoEmissor" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CartMotorista" Type="String" MaxLength="11" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EmissaoCartMot" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CategoriaMot" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DataNascimento" Type="DateTime" Precision="0" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Apolices" Relationship="Self.FK_ClienteId_Apolices" FromRole="Clientes" ToRole="Apolices" />
+  </EntityType>
+  <EntityType Name="Marcas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Marca" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Apolices" Relationship="Self.FK_Marca_Apolices" FromRole="Marcas" ToRole="Apolices" />
+    <NavigationProperty Name="Modelos" Relationship="Self.FK_MarcaID_Modelos" FromRole="Marcas" ToRole="Modelos" />
+    <NavigationProperty Name="TabelaFIPE" Relationship="Self.FK_MarcaID_TabelaFIPE" FromRole="Marcas" ToRole="TabelaFIPE" />
+  </EntityType>
+  <EntityType Name="Modelos">
+    <Key>
+      <PropertyRef Name="MarcaID" />
+      <PropertyRef Name="ModeloID" />
+    </Key>
+    <Property Name="MarcaID" Type="Int32" Nullable="false" />
+    <Property Name="ModeloID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Modelo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Apolices" Relationship="Self.FK_Modelos_Apolices" FromRole="Modelos" ToRole="Apolices" />
+    <NavigationProperty Name="Marcas" Relationship="Self.FK_MarcaID_Modelos" FromRole="Modelos" ToRole="Marcas" />
+    <NavigationProperty Name="TabelaFIPE" Relationship="Self.FK_ModeloID_TabelaFIPE" FromRole="Modelos" ToRole="TabelaFIPE" />
+  </EntityType>
+  <EntityType Name="TabelaFIPE">
+    <Key>
+      <PropertyRef Name="MarcaID" />
+      <PropertyRef Name="ModeloID" />
+      <PropertyRef Name="Ano" />
+    </Key>
+    <Property Name="MarcaID" Type="Int32" Nullable="false" />
+    <Property Name="ModeloID" Type="Int32" Nullable="false" />
+    <Property Name="Ano" Type="Int32" Nullable="false" />
+    <Property Name="Valor" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <NavigationProperty Name="Marcas" Relationship="Self.FK_MarcaID_TabelaFIPE" FromRole="TabelaFIPE" ToRole="Marcas" />
+    <NavigationProperty Name="Modelos" Relationship="Self.FK_ModeloID_TabelaFIPE" FromRole="TabelaFIPE" ToRole="Modelos" />
+  </EntityType>
+  <Association Name="FK_ClienteId_Apolices">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Apolices" Type="Self.Apolices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="ClienteID" />
+      </Principal>
+      <Dependent Role="Apolices">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Marca_Apolices">
+    <End Role="Marcas" Type="Self.Marcas" Multiplicity="1" />
+    <End Role="Apolices" Type="Self.Apolices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marcas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Apolices">
+        <PropertyRef Name="Marca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Modelos_Apolices">
+    <End Role="Modelos" Type="Self.Modelos" Multiplicity="1" />
+    <End Role="Apolices" Type="Self.Apolices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modelos">
+        <PropertyRef Name="MarcaID" />
+        <PropertyRef Name="ModeloID" />
+      </Principal>
+      <Dependent Role="Apolices">
+        <PropertyRef Name="Marca" />
+        <PropertyRef Name="Modelo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarcaID_Modelos">
+    <End Role="Marcas" Type="Self.Marcas" Multiplicity="1" />
+    <End Role="Modelos" Type="Self.Modelos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marcas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Modelos">
+        <PropertyRef Name="MarcaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarcaID_TabelaFIPE">
+    <End Role="Marcas" Type="Self.Marcas" Multiplicity="1" />
+    <End Role="TabelaFIPE" Type="Self.TabelaFIPE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marcas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TabelaFIPE">
+        <PropertyRef Name="MarcaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ModeloID_TabelaFIPE">
+    <End Role="Modelos" Type="Self.Modelos" Multiplicity="1" />
+    <End Role="TabelaFIPE" Type="Self.TabelaFIPE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modelos">
+        <PropertyRef Name="MarcaID" />
+        <PropertyRef Name="ModeloID" />
+      </Principal>
+      <Dependent Role="TabelaFIPE">
+        <PropertyRef Name="MarcaID" />
+        <PropertyRef Name="ModeloID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="seguradoraEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Apolices" EntityType="Self.Apolices" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" />
+    <EntitySet Name="Marcas" EntityType="Self.Marcas" />
+    <EntitySet Name="Modelos" EntityType="Self.Modelos" />
+    <EntitySet Name="TabelaFIPE" EntityType="Self.TabelaFIPE" />
+    <AssociationSet Name="FK_ClienteId_Apolices" Association="Self.FK_ClienteId_Apolices">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Apolices" EntitySet="Apolices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Marca_Apolices" Association="Self.FK_Marca_Apolices">
+      <End Role="Marcas" EntitySet="Marcas" />
+      <End Role="Apolices" EntitySet="Apolices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Modelos_Apolices" Association="Self.FK_Modelos_Apolices">
+      <End Role="Modelos" EntitySet="Modelos" />
+      <End Role="Apolices" EntitySet="Apolices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarcaID_Modelos" Association="Self.FK_MarcaID_Modelos">
+      <End Role="Marcas" EntitySet="Marcas" />
+      <End Role="Modelos" EntitySet="Modelos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarcaID_TabelaFIPE" Association="Self.FK_MarcaID_TabelaFIPE">
+      <End Role="Marcas" EntitySet="Marcas" />
+      <End Role="TabelaFIPE" EntitySet="TabelaFIPE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ModeloID_TabelaFIPE" Association="Self.FK_ModeloID_TabelaFIPE">
+      <End Role="Modelos" EntitySet="Modelos" />
+      <End Role="TabelaFIPE" EntitySet="TabelaFIPE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

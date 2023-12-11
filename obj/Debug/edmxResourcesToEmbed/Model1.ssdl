@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="seguradoraModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Apolices">
+    <Key>
+      <PropertyRef Name="ApoliceId" />
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ApoliceId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClienteId" Type="int" Nullable="false" />
+    <Property Name="Marca" Type="int" Nullable="false" />
+    <Property Name="Modelo" Type="int" Nullable="false" />
+    <Property Name="AnoFabricacao" Type="int" Nullable="false" />
+    <Property Name="AnoModelo" Type="int" Nullable="false" />
+    <Property Name="Combustivel" Type="int" Nullable="false" />
+    <Property Name="Chassi" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Placa" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="Roubo" Type="bit" Nullable="false" />
+    <Property Name="Vidros" Type="bit" Nullable="false" />
+    <Property Name="Acidentes" Type="bit" Nullable="false" />
+    <Property Name="DanosTerceiros" Type="bit" Nullable="false" />
+    <Property Name="FranquiaRed" Type="bit" Nullable="false" />
+    <Property Name="ValorDoBem" Type="money" Nullable="false" />
+    <Property Name="ValorFranquia" Type="money" Nullable="false" />
+    <Property Name="ValorApolice" Type="money" Nullable="false" />
+    <Property Name="ValorPremio" Type="money" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clientes">
+    <Key>
+      <PropertyRef Name="ClienteID" />
+    </Key>
+    <Property Name="ClienteID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Endereco" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CEP" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Cidade" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="UF" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="Telefone" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Celular" Type="varchar" MaxLength="11" />
+    <Property Name="CPF" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="RG" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="OrgaoEmissor" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CartMotorista" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="EmissaoCartMot" Type="date" Nullable="false" />
+    <Property Name="CategoriaMot" Type="varchar" MaxLength="1" Nullable="false" />
+    <Property Name="DataNascimento" Type="date" />
+    <Property Name="Email" Type="varchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="Marcas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Marca" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Modelos">
+    <Key>
+      <PropertyRef Name="MarcaID" />
+      <PropertyRef Name="ModeloID" />
+    </Key>
+    <Property Name="MarcaID" Type="int" Nullable="false" />
+    <Property Name="ModeloID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Modelo" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TabelaFIPE">
+    <Key>
+      <PropertyRef Name="MarcaID" />
+      <PropertyRef Name="ModeloID" />
+      <PropertyRef Name="Ano" />
+    </Key>
+    <Property Name="MarcaID" Type="int" Nullable="false" />
+    <Property Name="ModeloID" Type="int" Nullable="false" />
+    <Property Name="Ano" Type="int" Nullable="false" />
+    <Property Name="Valor" Type="money" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ClienteId_Apolices">
+    <End Role="Clientes" Type="Self.Clientes" Multiplicity="1" />
+    <End Role="Apolices" Type="Self.Apolices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clientes">
+        <PropertyRef Name="ClienteID" />
+      </Principal>
+      <Dependent Role="Apolices">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Marca_Apolices">
+    <End Role="Marcas" Type="Self.Marcas" Multiplicity="1" />
+    <End Role="Apolices" Type="Self.Apolices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marcas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Apolices">
+        <PropertyRef Name="Marca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarcaID_Modelos">
+    <End Role="Marcas" Type="Self.Marcas" Multiplicity="1" />
+    <End Role="Modelos" Type="Self.Modelos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marcas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Modelos">
+        <PropertyRef Name="MarcaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MarcaID_TabelaFIPE">
+    <End Role="Marcas" Type="Self.Marcas" Multiplicity="1" />
+    <End Role="TabelaFIPE" Type="Self.TabelaFIPE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Marcas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TabelaFIPE">
+        <PropertyRef Name="MarcaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ModeloID_TabelaFIPE">
+    <End Role="Modelos" Type="Self.Modelos" Multiplicity="1" />
+    <End Role="TabelaFIPE" Type="Self.TabelaFIPE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modelos">
+        <PropertyRef Name="MarcaID" />
+        <PropertyRef Name="ModeloID" />
+      </Principal>
+      <Dependent Role="TabelaFIPE">
+        <PropertyRef Name="MarcaID" />
+        <PropertyRef Name="ModeloID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Modelos_Apolices">
+    <End Role="Modelos" Type="Self.Modelos" Multiplicity="1" />
+    <End Role="Apolices" Type="Self.Apolices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Modelos">
+        <PropertyRef Name="MarcaID" />
+        <PropertyRef Name="ModeloID" />
+      </Principal>
+      <Dependent Role="Apolices">
+        <PropertyRef Name="Marca" />
+        <PropertyRef Name="Modelo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="seguradoraModelStoreContainer">
+    <EntitySet Name="Apolices" EntityType="Self.Apolices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clientes" EntityType="Self.Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Marcas" EntityType="Self.Marcas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Modelos" EntityType="Self.Modelos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TabelaFIPE" EntityType="Self.TabelaFIPE" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ClienteId_Apolices" Association="Self.FK_ClienteId_Apolices">
+      <End Role="Clientes" EntitySet="Clientes" />
+      <End Role="Apolices" EntitySet="Apolices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Marca_Apolices" Association="Self.FK_Marca_Apolices">
+      <End Role="Marcas" EntitySet="Marcas" />
+      <End Role="Apolices" EntitySet="Apolices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarcaID_Modelos" Association="Self.FK_MarcaID_Modelos">
+      <End Role="Marcas" EntitySet="Marcas" />
+      <End Role="Modelos" EntitySet="Modelos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MarcaID_TabelaFIPE" Association="Self.FK_MarcaID_TabelaFIPE">
+      <End Role="Marcas" EntitySet="Marcas" />
+      <End Role="TabelaFIPE" EntitySet="TabelaFIPE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ModeloID_TabelaFIPE" Association="Self.FK_ModeloID_TabelaFIPE">
+      <End Role="Modelos" EntitySet="Modelos" />
+      <End Role="TabelaFIPE" EntitySet="TabelaFIPE" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Modelos_Apolices" Association="Self.FK_Modelos_Apolices">
+      <End Role="Modelos" EntitySet="Modelos" />
+      <End Role="Apolices" EntitySet="Apolices" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

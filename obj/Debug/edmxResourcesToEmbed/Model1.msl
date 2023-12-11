@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="seguradoraModelStoreContainer" CdmEntityContainer="seguradoraEntities">
+    <EntitySetMapping Name="Apolices">
+      <EntityTypeMapping TypeName="seguradoraModel.Apolices">
+        <MappingFragment StoreEntitySet="Apolices">
+          <ScalarProperty Name="ApoliceId" ColumnName="ApoliceId" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="AnoFabricacao" ColumnName="AnoFabricacao" />
+          <ScalarProperty Name="AnoModelo" ColumnName="AnoModelo" />
+          <ScalarProperty Name="Combustivel" ColumnName="Combustivel" />
+          <ScalarProperty Name="Chassi" ColumnName="Chassi" />
+          <ScalarProperty Name="Placa" ColumnName="Placa" />
+          <ScalarProperty Name="Roubo" ColumnName="Roubo" />
+          <ScalarProperty Name="Vidros" ColumnName="Vidros" />
+          <ScalarProperty Name="Acidentes" ColumnName="Acidentes" />
+          <ScalarProperty Name="DanosTerceiros" ColumnName="DanosTerceiros" />
+          <ScalarProperty Name="FranquiaRed" ColumnName="FranquiaRed" />
+          <ScalarProperty Name="ValorDoBem" ColumnName="ValorDoBem" />
+          <ScalarProperty Name="ValorFranquia" ColumnName="ValorFranquia" />
+          <ScalarProperty Name="ValorApolice" ColumnName="ValorApolice" />
+          <ScalarProperty Name="ValorPremio" ColumnName="ValorPremio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="seguradoraModel.Clientes">
+        <MappingFragment StoreEntitySet="Clientes">
+          <ScalarProperty Name="ClienteID" ColumnName="ClienteID" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Endereco" ColumnName="Endereco" />
+          <ScalarProperty Name="CEP" ColumnName="CEP" />
+          <ScalarProperty Name="Cidade" ColumnName="Cidade" />
+          <ScalarProperty Name="UF" ColumnName="UF" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="RG" ColumnName="RG" />
+          <ScalarProperty Name="OrgaoEmissor" ColumnName="OrgaoEmissor" />
+          <ScalarProperty Name="CartMotorista" ColumnName="CartMotorista" />
+          <ScalarProperty Name="EmissaoCartMot" ColumnName="EmissaoCartMot" />
+          <ScalarProperty Name="CategoriaMot" ColumnName="CategoriaMot" />
+          <ScalarProperty Name="DataNascimento" ColumnName="DataNascimento" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Marcas">
+      <EntityTypeMapping TypeName="seguradoraModel.Marcas">
+        <MappingFragment StoreEntitySet="Marcas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modelos">
+      <EntityTypeMapping TypeName="seguradoraModel.Modelos">
+        <MappingFragment StoreEntitySet="Modelos">
+          <ScalarProperty Name="MarcaID" ColumnName="MarcaID" />
+          <ScalarProperty Name="ModeloID" ColumnName="ModeloID" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TabelaFIPE">
+      <EntityTypeMapping TypeName="seguradoraModel.TabelaFIPE">
+        <MappingFragment StoreEntitySet="TabelaFIPE">
+          <ScalarProperty Name="MarcaID" ColumnName="MarcaID" />
+          <ScalarProperty Name="ModeloID" ColumnName="ModeloID" />
+          <ScalarProperty Name="Ano" ColumnName="Ano" />
+          <ScalarProperty Name="Valor" ColumnName="Valor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
